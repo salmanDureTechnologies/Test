@@ -1,0 +1,29 @@
+{
+  "last_update_utc": "2022-10-15 15:44:27",
+  "headers": [
+    "Host-Header",
+    "Liferay-Portal",
+    "Powered-By",
+    "Product",
+    "Server",
+    "SourceMap",
+    "X-AspNet-Version",
+    "X-AspNetMvc-Version",
+    "X-CF-Powered-By",
+    "X-CMS",
+    "X-Content-Encoded-By",
+    "X-Envoy-Upstream-Service-Time",
+    "X-Framework",
+    "X-Generated-By",
+    "X-Generator",
+    "X-Php-Version",
+    "X-Powered-By",
+    "X-Powered-By-Plesk",
+    "X-Powered-CMS",
+    "X-Redirect-By",
+    "X-Server-Powered-By",
+    "X-SourceFiles",
+    "X-SourceMap",
+    "X-Turbo-Charged-By"
+  ]
+}
