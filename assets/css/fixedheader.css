@@ -1,0 +1,72 @@
+
+  .national-longtable .table-scroll {
+    position: relative;
+    width:100%;
+    z-index: 1;
+    margin: auto;
+    overflow: auto;
+    height: 420px;
+  }
+
+  .national-longtable table {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+   
+  }
+  .national-longtable .table-scroll table {
+    width: 100%;
+    min-width: 1280px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    position:absolute;
+  }
+  .national-longtable .table-wrap {
+    position: relative;
+  }
+
+ .national-longtable .table-scroll th,
+ .national-longtable .table-scroll td {
+    padding: 5px 10px;
+    border-bottom: 1px solid #D7D9DC;
+    background: #fff;
+    vertical-align: top;
+  }
+  .national-longtable .table-scroll thead th {
+    background: #024664;
+    color: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  /* safari and ios need the tfoot itself to be position:sticky also */
+  .table-scroll tfoot,
+  .table-scroll tfoot th,
+  .table-scroll tfoot td {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    background: #F5F5F6 !important;
+    color: #fff;
+    z-index:4;
+  }
+  
+  .national-longtable th:first-child {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: #F5F5F6;
+  }
+  .national-longtable thead th:first-child,
+  .national-longtable tfoot th:first-child {
+    z-index: 5;
+  }
+
+  .national-longtable .list-group-item {
+    position: static;
+    padding: 2px;
+  }
+  
