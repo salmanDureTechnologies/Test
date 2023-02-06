@@ -1,4 +1,4 @@
-$(function() {
+function drawdonutProgress2() {
   
     // Create the chart
     chart = new Highcharts.Chart({
@@ -80,4 +80,4 @@ $(function() {
         fill: '#fff',
     }).add();
     
-  });
+  }

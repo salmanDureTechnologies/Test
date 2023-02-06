@@ -1,10 +1,12 @@
-Highcharts.chart('container-pie', {
-    chart: {
-       
-        plotBackgroundColor: null,
-    plotBorderWidth: null,
-    plotShadow: false,
+function drawPie(){
+Highcharts.chart('chartPie', {
     
+    chart: {
+        
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        
            
     },
      title: {
@@ -126,3 +128,4 @@ Highcharts.chart('container-pie', {
       }
     },
 });
+}

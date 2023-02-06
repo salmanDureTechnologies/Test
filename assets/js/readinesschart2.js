@@ -1,4 +1,5 @@
 // Data retrieved from https://www.ssb.no/energi-og-industri/olje-og-gass/statistikk/sal-av-petroleumsprodukt/artikler/auka-sal-av-petroleumsprodukt-til-vegtrafikk
+function drawChart(){
 Highcharts.chart('container-chart2', {
     title: {
         text: 'iHR Score Per Capacity AFRO Nigeria 2021',
@@ -46,3 +47,4 @@ Highcharts.chart('container-chart2', {
         }
     }]
 });
+}

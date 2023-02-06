@@ -1,7 +1,13 @@
+function getStepper(){
 let wizardBar = document.querySelector('[data-wizard-bar]')
 let btnPrevious = document.querySelector('[data-btn-previous]')
 let currentTab = 0;
-showTab(currentTab);
+
+
+
+  'use strict';
+
+  showTab(currentTab);
 
 function showTab(n) {
   let formTabs = document.querySelectorAll('[data-form-tab]');
@@ -61,3 +67,5 @@ document.querySelector('*').addEventListener('click', function (event) {
     updateWizardBarWidth()
   }
 })
+
+}
