@@ -6,10 +6,8 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-//document.addEventListener('DOMContentLoaded', function () {
-function getFeather(){  
-'use strict';
-  // console.log('In script');
+document.addEventListener('DOMContentLoaded', function () {
+  'use strict';
   /* function testWebP(callback) {
   var webP = new Image();
   webP.onload = webP.onerror = function () {
@@ -28,7 +26,6 @@ function getFeather(){
   feather.replace();
 
   (function () {
-    // debugger;
     var sidebar = document.querySelector('.sidebar'),
         catSubMenu = document.querySelector('.cat-sub-menu'),
         sidebarBtns = document.querySelectorAll('.sidebar-toggle');
@@ -177,6 +174,5 @@ function getFeather(){
 
 
 
-  // addData();
-// });
-}
+  addData();
+});

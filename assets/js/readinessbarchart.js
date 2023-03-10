@@ -1,4 +1,3 @@
-function drawBar(){
 Highcharts.chart('container-barchart', {
     chart: {
         type: 'bar'
@@ -53,4 +52,3 @@ Highcharts.chart('container-barchart', {
         
     }]
 });
-}

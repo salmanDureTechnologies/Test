@@ -781,13 +781,13 @@ img {
 }
 
 
-/* .menu-toggle {
+.menu-toggle {
   background-image: url(../img/svg/Bulk/Menu-toggle-white.svg);
   width: 24px;
   height: 24px;
-} */
+}
 
-/* .menu-toggle--gray {
+.menu-toggle--gray {
   background-image: url(../img/svg/Bulk/Menu-toggle-gray.svg);
   width: 24px;
   height: 24px;
@@ -925,7 +925,7 @@ img {
   background-image: url(../img/svg/Bulk/Delete.svg);
   width: 24px;
   height: 24px;
-} */
+}
 
 .search-wrapper svg {
   stroke: #D6D7E3;
@@ -1124,17 +1124,14 @@ button.disabled:focus {
   flex-wrap: wrap;
   border-radius: 4px;
   padding: 10px 20px;
-  background: #276196 !important;
+  background: #276196;
   border-radius: 4px;
-  color: #fff !important;
-  /* font-size: 16px; */
-  font-family: 'Lato';
-  font-style: normal;
+  color: #fff;
 }
 
 .primary-default-btn:hover {
-  background-color: #276196 !important;
-  color: #fff !important;
+  background-color: #276196;
+  color: #fff;
 }
 
 .primary-white-btn {
@@ -1151,8 +1148,8 @@ button.disabled:focus {
   flex-wrap: wrap;
   border-radius: 4px;
   padding: 10px 20px;
-  background-color: #fff !important;
-  color: #2f49d1 !important;
+  background-color: #fff;
+  color: #2f49d1;
   font-weight: 500;
   font-size: 14px;
   line-height: 2.43;
@@ -1176,7 +1173,7 @@ button.disabled:focus {
   flex-wrap: wrap;
   border-radius: 4px;
   padding: 10px 20px;
-  border: 2px solid #2f49d1 !important;
+  border: 2px solid #2f49d1;
   color: #2f49d1;
   background-color: transparent;
 }
@@ -4556,7 +4553,7 @@ color: #276196;
  
   .dropdown-menu .dropdown-submenu {
       display: none;
-      position: absolute !important;
+      position: absolute;
       left: 100%;
       top: -7px;
   }
@@ -4947,9 +4944,6 @@ border-style: solid;
 border-color: #D7D9DC;
 }
 
-.dropdown-item{
-  color: #212529 !important;
-}
 .dropdown-item:active{
   background-color: #276196;
   color: #fff;
@@ -5638,34 +5632,12 @@ color: #276196;
   position: relative;
 }
 
-.select-dropdown{
-  display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.select-dropdown .fa-search{
-  position: relative !important;
-    z-index: 999;
-    overflow: hidden;
-    text-align: left;
-    right: -32px;
-    top: -4px;
-}
-
 .multiple-select .fa-search {
   position: absolute;
   z-index: 999;
   overflow: hidden;
   text-align: left;
 
-}
-
-.dropdown-country{
-  display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .multiple-select .select2-container--default .select2-selection--multiple{
@@ -5746,15 +5718,15 @@ color: #276196;
 }
 
 .btn-LogIn {
-  background: #276196  !important;
-  border-radius: 4px  !important;
+  background: #276196;
+  border-radius: 4px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF  !important;
+  color: #FFFFFF;
 }
 
 .btn-demo {
@@ -5917,7 +5889,7 @@ color: #276196;
   background-color: #276196;
   color: #fff;
 }
-/* .wizard-item.active.with-image:after {
+.wizard-item.active.with-image:after {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M20 8.9087L17.1443 6L9.97468 13.191L6.8557 10.0399L4 12.888L8.53671 17.4126C8.91618 17.7888 9.4295 18 9.96456 18C10.4996 18 11.0129 17.7888 11.3924 17.4126L20 8.9087Z' fill='%23ffffff'/%3E%3C/svg%3E");
 }
 .wizard-item.with-image:after {
@@ -5926,7 +5898,7 @@ color: #276196;
   height: 24px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M20 8.9087L17.1443 6L9.97468 13.191L6.8557 10.0399L4 12.888L8.53671 17.4126C8.91618 17.7888 9.4295 18 9.96456 18C10.4996 18 11.0129 17.7888 11.3924 17.4126L20 8.9087Z' fill='%231E4DBA'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
-} */
+}
 
 .timeline li::before:active{
   background-color: #276196;
@@ -5971,52 +5943,4 @@ color: #276196;
   }
 }  
 
-
-/*slider css*/
-
-.ngx-slider .ngx-slider-tick-value{
-  top: 22px !important;
-}
-
-.ngx-slider .ngx-slider-pointer{
-  /* opacity: 1;
-    left: 100% !important;
-    background: rgb(49, 121, 188) !important;
-    border-radius: 10px !important;
-    cursor: pointer;
-    height: 15px!important;
-    top: 40% !important;
-    width: 15px !important; */
-    background: rgb(49, 121, 188) !important;
-    width: 15px !important;
-    height: 15px !important;
-    top: -4px !important;
-}
-
-.ngx-slider .ngx-slider-bar{
-    border-radius: 4px !important;
-    box-shadow: inset 0 0 0.2em 0.1em #ccc4b8 !important;
-    cursor: pointer;
-    height: 8px !important;
-    width: 100% !important;
-    background: #e1e2e5 !important;
-}
-
-.ngx-slider .ngx-slider-tick{
-  background: #9c9fa7 !important;
- 
-  position: absolute;
-    top: 10px !important;
-    width: 1px !important;
-}
-
-.ngx-slider .ngx-slider-span{
-    width: max-content;
-    color: #9C9FA7;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-}
 
