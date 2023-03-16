@@ -9,7 +9,7 @@ Highcharts.chart('container-pie', {
     },
      title: {
     style: {
-            //  fontWeight: 'bold',
+            //  fontWeight: 'bold',pd
              color:'black' ,
              size:'20%'
             },
