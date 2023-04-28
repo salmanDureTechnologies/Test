@@ -1,3 +1,4 @@
+function drawHeatchart(){
 var chart = AmCharts.makeChart( "heatdiv", {
     "type": "serial",
     "theme": "light",
@@ -183,5 +184,5 @@ var chart = AmCharts.makeChart( "heatdiv", {
       }]
     } ]
   } );
-  
+}
   

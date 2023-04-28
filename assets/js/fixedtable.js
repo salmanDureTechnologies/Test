@@ -1,5 +1,4 @@
-
-
+function drawTable(){
 $(document).ready(function() {
     $('#example').DataTable( {
         scrollY:        300,
@@ -11,3 +10,4 @@ $(document).ready(function() {
     } );
 
 } );
+}

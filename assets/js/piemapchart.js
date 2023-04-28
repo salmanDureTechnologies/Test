@@ -1,15 +1,17 @@
-Highcharts.chart('container-pie', {
-    chart: {
-       
-        plotBackgroundColor: null,
-    plotBorderWidth: null,
-    plotShadow: false,
+function drawPie(){
+Highcharts.chart('chartPie', {
     
+    chart: {
+        
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        
            
     },
      title: {
     style: {
-            //  fontWeight: 'bold',pd
+            //  fontWeight: 'bold',
              color:'black' ,
              size:'20%'
             },
@@ -126,3 +128,4 @@ Highcharts.chart('container-pie', {
       }
     },
 });
+}
